@@ -10,3 +10,6 @@ int1 = 8
 int2 = 10
 sum = (int1 + int2)
 print(sum)
+
+## Description:
+# This code starts by defining two integers: int1 is set to 8 and int2 is set to 10. It then adds these two integers together and saves the result in a variable called sum. Finally, it prints the value of sum to the screen, which is 18.
