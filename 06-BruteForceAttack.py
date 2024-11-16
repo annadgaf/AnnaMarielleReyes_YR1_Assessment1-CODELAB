@@ -45,3 +45,26 @@ while attempts < max_attempts:
 # Enter the password: 2131
 # Maximum attempts reached. U.A.E. authories have been alerted.
 
+## Description
+# 1. Defining the Correct Password and Maximum Attempts
+# - 'correct_password' as the passwords the user must input to gain access.
+# - 'max_attempts' to limit the number of the times a user can try entering the password.
+# 2. Initializing the Counter
+# We need a counter to track how many times the user has tried entering a password.
+# We initialize it as 0
+# 3. Using a while Loop
+# We use a 'while' loop to repeat the process of asking the user for the password until one of two things happens:
+# - The user enters the correct password; or
+# - The user reaches the maximum number of attempts.
+# 4. Asking for the Password
+# Inside the loop, we ask the user to input the password.
+# 5. Checking the Password
+# Once the user inputs a password, we check:
+# - If the password is correct:
+#   - If it matched 'correct_password', we print an access message and exit the loop using break.
+# - If the passwords is incorrect:
+#   - We inceremnt the 'attempts' counter by 1.
+#   - Then, we calculate how many attempts are left using:
+# 'remaining_attempts = max_attempts - attempts'
+#   - We inform the user how many attempts are left. If no attempts remain, we print a final message
+#     indicating authorities have been alerted.

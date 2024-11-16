@@ -70,6 +70,8 @@ else:
 # The month has 30 days.
 # Enter the month number (1-12): 12
 # The month has 31 days.
+# Enter the month number (1-12): 13
+# Invalid month number. Please enter a number between 1 and 12.
 
 ## Description
 # 1. Define Days in Each Month:
