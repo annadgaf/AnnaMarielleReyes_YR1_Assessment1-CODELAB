@@ -23,3 +23,30 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+## Output
+# Enter a number: 5
+# 5 is odd.
+# Enter a number: 4
+# 4 is even.
+# Enter a number: 3
+# 3 is odd.
+# Enter a number: 2
+# 2 is even.
+# Enter a number: 1
+# 1 is odd.
+
+## Description
+# 1. 'check_even_or_odd(number)' Function:
+# - This function takes a number as input.
+# - It checks if the number is even using the '%'.
+# - If 'number % 2 == 0', the number is even.
+# - Otherwise, it's odd.
+# - It then returns a message, like '"4 in even."' or '"7 is odd."'.
+# 2. 'main()' Function:
+# - The program asks the user to enter a number using 'input()'.
+# - It converts the input to an integer using 'int()'.
+# - The number is passed to the 'check_even_or_odd()' function to determine if it's even or odd.
+# - The result is printed to the console.
+# 3. 'if __name__ == "__main__"':
+# - This ensures that the 'main()' function runs only if the file is eecuted directly.x
